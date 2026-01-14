@@ -1,41 +1,35 @@
 {
     "$schema": "https://go.kicad.org/pcm/schemas/v1",
-    "name": "Silkscreen Label Generator Repository",
-    "packages": [
+    "name": "Silkscreen Label Generator",
+    "description": "Duplicate and increment silkscreen labels with custom offsets for pin headers and connectors",
+    "description_full": "A KiCad PCB Editor plugin that automates the creation of incremental silkscreen labels. Perfect for pin headers - select a label, set the spacing (e.g., 2.54mm), and automatically generate numbered labels (HE0, HE1, HE2...). Supports custom X/Y offsets and flexible increment values.",
+    "identifier": "com.github.kicad-silkscreen-generator",
+    "type": "plugin",
+    "author": {
+        "name": "Charading",
+        "contact": {
+            "web": "https://github.com/Charading/kicad-silkscreen-generator"
+        }
+    },
+    "maintainer": {
+        "name": "Charading",
+        "contact": {
+            "web": "https://github.com/Charading/kicad-silkscreen-generator"
+        }
+    },
+    "license": "MIT",
+    "resources": {
+        "homepage": "https://github.com/Charading/kicad-silkscreen-generator"
+    },
+    "versions": [
         {
-            "$schema": "https://go.kicad.org/pcm/schemas/v1",
-            "name": "Silkscreen Label Generator",
-            "description": "Duplicate and increment silkscreen labels with custom offsets for pin headers and connectors",
-            "description_full": "A KiCad PCB Editor plugin that automates the creation of incremental silkscreen labels. Perfect for pin headers - select a label, set the spacing (e.g., 2.54mm), and automatically generate numbered labels (HE0, HE1, HE2...). Supports custom X/Y offsets and flexible increment values.",
-            "identifier": "com.github.kicad-silkscreen-generator",
-            "type": "plugin",
-            "author": {
-                "name": "Charading",
-                "contact": {
-                    "web": "https://github.com/Charading/kicad-silkscreen-generator"
-                }
-            },
-            "maintainer": {
-                "name": "Charading",
-                "contact": {
-                    "web": "https://github.com/Charading/kicad-silkscreen-generator"
-                }
-            },
-            "license": "MIT",
-            "resources": {
-                "homepage": "https://github.com/Charading/kicad-silkscreen-generator"
-            },
-            "versions": [
-                {
-                    "version": "1.0.0",
-                    "status": "stable",
-                    "kicad_version": "6.0",
-                    "download_url": "https://github.com/Charading/kicad-silkscreen-generator/releases/download/v1.0.0/kicad-silkscreen-generator-1.0.0.zip",
-                    "download_sha256": "PLACEHOLDER_REPLACE_AFTER_BUILDING_ZIP",
-                    "download_size": 50000,
-                    "install_size": 100000
-                }
-            ]
+            "version": "1.0.0",
+            "status": "stable",
+            "kicad_version": "6.0",
+            "download_url": "https://github.com/Charading/kicad-silkscreen-generator/releases/download/v1.0.0/kicad-silkscreen-generator-1.0.0.zip",
+            "download_sha256": "E18722182231B3837B7DCAF5A46E86553D14BA8506764990248DF0322D9EB7FA",
+            "download_size": 28398,
+            "install_size": 35000
         }
     ]
 }
