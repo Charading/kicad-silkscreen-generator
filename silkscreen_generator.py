@@ -34,25 +34,17 @@ class SilkscreenGeneratorPlugin(pcbnew.ActionPlugin):
             )
             return
         
-        if len(selected_items) > 1:
-            wx.MessageBox(
-                "Please select only one silkscreen text label!",
-                "Multiple Selection",
-                wx.OK | wx.ICON_WARNING
-            )
-            return
-        
+        # Show dialog with the first selected item as reference
         source_text = selected_items[0]
-        
-        # Show dialog
-        dialog = SilkscreenGeneratorDialog(None, source_text)
+        dialog = SilkscreenGeneratorDialog(None, source_text, len(selected_items))
         
         if dialog.ShowModal() == wx.ID_OK:
             # Get parameters from dialog
             params = dialog.GetValues()
             
-            # Generate the labels
-            self.generate_labels(board, source_text, params)
+            # Generate labels for each selected item
+            for source_text in selected_items:
+                self.generate_labels(board, source_text, params)
             
             # Refresh the board
             pcbnew.Refresh()

@@ -9,7 +9,7 @@ import os
 
 
 class SilkscreenGeneratorDialog(wx.Dialog):
-    def __init__(self, parent, source_text):
+    def __init__(self, parent, source_text, selection_count=1):
         super().__init__(
             parent,
             title="Silkscreen Label Generator",
@@ -17,6 +17,7 @@ class SilkscreenGeneratorDialog(wx.Dialog):
         )
         
         self.source_text = source_text
+        self.selection_count = selection_count
         self.settings_file = os.path.join(os.path.dirname(__file__), 'settings.json')
         self.InitUI()
         self.LoadSettings()
@@ -27,7 +28,12 @@ class SilkscreenGeneratorDialog(wx.Dialog):
         vbox = wx.BoxSizer(wx.VERTICAL)
         
         # Display source text
-        source_label = wx.StaticText(panel, label=f"Source Label: {self.source_text.GetText()}")
+        if self.selection_count == 1:
+            label_text = f"Source Label: {self.source_text.GetText()}"
+        else:
+            label_text = f"Selected {self.selection_count} Labels (starting with: {self.source_text.GetText()})"
+        
+        source_label = wx.StaticText(panel, label=label_text)
         font = source_label.GetFont()
         font.PointSize += 1
         font = font.Bold()
