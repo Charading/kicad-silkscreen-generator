@@ -1,6 +1,8 @@
 # KiCad Silkscreen Label Generator Plugin
 
-<img src="demo.gif" align="right" width="400" alt="Demo">
+<img src="demo.gif" align="right" width="300" alt="Demo" style="margin-left: 20px; margin-bottom: 20px;">
+
+<div align="justify">
 
 A KiCad PCB Editor plugin that automates the creation of incremental silkscreen labels for pin headers and other components.
 
@@ -12,6 +14,8 @@ A KiCad PCB Editor plugin that automates the creation of incremental silkscreen 
 - 🔄 **Batch Generation**: Create multiple labels at once (up to 1000)
 - 💡 **Smart Text Handling**: Works with or without existing numbers in labels
 - 🎯 **Multiple Selection Support**: Select multiple silkscreens and generate from each one
+
+</div>
 
 <br clear="right"/>
 
