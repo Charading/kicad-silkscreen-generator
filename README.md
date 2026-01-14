@@ -63,58 +63,6 @@ The dialog will show your selected label and these options:
 
 Click **Generate** and the plugin will create all your labels!
 
-## Examples
-
-### Example 1: Vertical Pin Header (2.54mm pitch)
-
-- Select label: "PIN1"
-- Number of Copies: 10
-- Number Increment: 1
-- X Offset: 0.0 mm
-- Y Offset: 2.54 mm
-
-**Result**: PIN1, PIN2, PIN3... PIN11 spaced 2.54mm apart vertically
-
-### Example 2: Horizontal Header
-
-- Select label: "A0"
-- Number of Copies: 8
-- Number Increment: 1
-- X Offset: 2.54 mm
-- Y Offset: 0.0 mm
-
-**Result**: A0, A1, A2... A8 spaced 2.54mm apart horizontally
-
-### Example 3: Even Numbers Only
-
-- Select label: "D0"
-- Number of Copies: 5
-- Number Increment: 2
-- X Offset: 0.0 mm
-- Y Offset: 2.0 mm
-
-**Result**: D0, D2, D4, D6, D8, D10
-
-### Example 4: Starting Mid-Sequence
-
-- Select label: "HE11" (continuing from previous header)
-- Number of Copies: 10
-- Number Increment: 1
-- X Offset: 0.0 mm
-- Y Offset: 2.54 mm
-
-**Result**: HE12, HE13, HE14... HE21
-
-### Example 5: No Initial Number
-
-- Select label: "HEADER"
-- Number of Copies: 5
-- Number Increment: 1
-- X Offset: 0.0 mm
-- Y Offset: 2.54 mm
-
-**Result**: HEADER1, HEADER2, HEADER3, HEADER4, HEADER5
-
 ## Tips
 
 - The original selected label is **not** modified
@@ -123,35 +71,11 @@ Click **Generate** and the plugin will create all your labels!
 - You can use negative offsets to generate labels in the opposite direction
 - Use X and Y offsets together for diagonal arrangements
 
-## Troubleshooting
-
-**Plugin doesn't appear in menu:**
-- Make sure you copied the entire folder to the correct plugins directory
-- Restart KiCad completely
-- Check KiCad → Preferences → Configure Paths to verify plugin location
-
-**"No Selection" error:**
-- You must select exactly one silkscreen text object before running the plugin
-- Make sure you're selecting a text object, not a footprint or other item
-
-**Labels appear in wrong location:**
-- Check your offset units (they're in millimeters)
-- Try negative values if labels go the wrong direction
-- Verify the selected text is where you expect it to be
-
 ## Requirements
 
 - KiCad 6.0 or later (tested with KiCad 7.0+)
 - Python 3.x (included with KiCad)
 - wxPython (included with KiCad)
-
-## License
-
-MIT License - Feel free to modify and distribute
-
-## Contributing
-
-Suggestions and improvements welcome! This plugin was created to streamline repetitive PCB labeling tasks.
 
 ## Version History
 
