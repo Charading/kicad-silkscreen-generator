@@ -2,6 +2,8 @@
 
 A KiCad PCB Editor plugin that automates the creation of incremental silkscreen labels for pin headers and other components.
 
+![Demo](demo.gif)
+
 ## Features
 
 - 🔢 **Automatic Number Incrementing**: Automatically increments numbers in silkscreen labels (e.g., HE0 → HE1 → HE2)
@@ -9,6 +11,8 @@ A KiCad PCB Editor plugin that automates the creation of incremental silkscreen 
 - 🎯 **Flexible Increment Values**: Choose any increment value (1, 2, 5, 10, etc.)
 - 🔄 **Batch Generation**: Create multiple labels at once (up to 1000)
 - 💡 **Smart Text Handling**: Works with or without existing numbers in labels
+
+![GUI Screenshot](gui.png)
 
 ## Use Cases
 
