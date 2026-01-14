@@ -16,7 +16,7 @@ A KiCad PCB Editor plugin that automates the creation of incremental silkscreen 
   Create multiple labels at once (up to 1000)
 - 💡 **Smart Text Handling**:  
   Works with or without existing numbers in labels
-- 🎯 **Multiple Selection Support**:  
+- ✨ **Multiple Selection Support**:  
   Select multiple silkscreens and generate from each one
 
 <br clear="right"/>
