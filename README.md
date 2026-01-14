@@ -34,28 +34,6 @@ Perfect for:
 
 <br clear="right"/>
 
-## Installation
-
-### Windows
-
-1. Find your KiCad plugins directory:
-   - Usually: `C:\Users\[YourUsername]\Documents\KiCad\[version]\scripting\plugins\`
-   - Or: `%APPDATA%\kicad\[version]\scripting\plugins\`
-
-2. Copy the entire `kicad-silkscreen-generator` folder to the plugins directory
-
-3. Restart KiCad PCB Editor
-
-### Linux
-
-1. Copy to: `~/.kicad/scripting/plugins/`
-2. Restart KiCad PCB Editor
-
-### macOS
-
-1. Copy to: `~/Library/Application Support/kicad/scripting/plugins/`
-2. Restart KiCad PCB Editor
-
 ## Usage
 
 ### Step 1: Create or Select a Silkscreen Label
