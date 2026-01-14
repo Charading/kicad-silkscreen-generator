@@ -15,7 +15,7 @@ A KiCad PCB Editor plugin that automates the creation of incremental silkscreen 
 
 <br clear="right"/>
 
-![GUI Screenshot](gui.png)
+<img src="gui.png" align="left" width="300" alt="GUI Screenshot" style="margin-right: 20px; margin-bottom: 20px;">
 
 ## Use Cases
 
@@ -25,6 +25,8 @@ Perfect for:
 - Connector labels
 - Test points
 - Any repeated labeling tasks
+
+<br clear="left"/>
 
 ## Installation
 
