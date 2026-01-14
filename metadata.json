@@ -28,9 +28,9 @@
             "status": "stable",
             "kicad_version": "6.0",
             "download_url": "https://github.com/Charading/kicad-silkscreen-generator/releases/download/v1.0.0/kicad-silkscreen-generator-1.0.0.zip",
-            "download_sha256": "b91dcf562efc80b22b167f4c793ae3e546b8be5ae727cd5584450316a283652e",
-            "download_size": 28437,
-            "install_size": 36000
+            "download_sha256": "02706ee57a495fba8451ff60566c44de87d9f654626d0188a283fd97018b4716",
+            "download_size": 10770,
+            "install_size": 18000
         }
     ]
 }
