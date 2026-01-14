@@ -7,17 +7,17 @@ A KiCad PCB Editor plugin that automates the creation of incremental silkscreen 
 ## Features
 
 - 🔢 **Automatic Number Incrementing**:  
-  Automatically increments numbers in silkscreen labels (e.g., HE0 → HE1 → HE2)
+     Automatically increments numbers in silkscreen labels (e.g., HE0 → HE1 → HE2)
 - 📏 **Custom Offsets**:  
-  Set X and Y offset values for precise label positioning
+     Set X and Y offset values for precise label positioning
 - 🎯 **Flexible Increment Values**:  
-  Choose any increment value (1, 2, 5, 10, etc.)
+     Choose any increment value (1, 2, 5, 10, etc.)
 - 🔄 **Batch Generation**:  
-  Create multiple labels at once (up to 1000)
+     Create multiple labels at once (up to 1000)
 - 💡 **Smart Text Handling**:  
-  Works with or without existing numbers in labels
+     Works with or without existing numbers in labels
 - ✨ **Multiple Selection Support**:  
-  Select multiple silkscreens and generate from each one
+     Select multiple silkscreens and generate from each one
 
 <br clear="right"/>
 
