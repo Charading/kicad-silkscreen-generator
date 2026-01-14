@@ -15,7 +15,7 @@ A KiCad PCB Editor plugin that automates the creation of incremental silkscreen 
 
 <br clear="right"/>
 
-<img src="gui.png" align="left" width="300" alt="GUI Screenshot" style="margin-right: 30px; margin-bottom: 30px;">
+<img src="gui.png" align="left" width="300" alt="GUI Screenshot" style="margin-right: 30px; margin-bottom: 30px; margin-top: 10px;">
 
 ## Use Cases
 
