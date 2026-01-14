@@ -2,7 +2,7 @@
 
 A KiCad PCB Editor plugin that automates the creation of incremental silkscreen labels for pin headers and other components.
 
-<img src="demo.gif" align="right" width="300" alt="Demo" style="margin-left: 20px; margin-bottom: 20px;">
+<img src="demo.gif" align="right" width="300" alt="Demo" style="margin-left: 30px; margin-bottom: 30px;">
 
 ## Features
 
@@ -15,7 +15,7 @@ A KiCad PCB Editor plugin that automates the creation of incremental silkscreen 
 
 <br clear="right"/>
 
-<img src="gui.png" align="left" width="300" alt="GUI Screenshot" style="margin-right: 20px; margin-bottom: 20px;">
+<img src="gui.png" align="left" width="300" alt="GUI Screenshot" style="margin-right: 30px; margin-bottom: 30px;">
 
 ## Use Cases
 
