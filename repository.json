@@ -8,6 +8,8 @@
     },
     "name": "Charading's KiCad Plugins",
     "packages": {
-        "url": "https://charading.github.io/kicad-silkscreen-generator/packages.json"
+        "url": "https://charading.github.io/kicad-silkscreen-generator/packages.json",
+        "update_time_utc": "2026-01-14 00:00:00",
+        "update_timestamp": 1736812800
     }
 }
